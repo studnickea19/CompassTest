@@ -59,8 +59,17 @@ div{
         font-family: "Rock Salt";
     }
     .projects{
-    padding:  5%;
-    background-color: $primary-gray;
+        padding:  5%;
+        background-color: $primary-gray;
+    }
+    .details-button{
+    padding-top:  5%;
+    padding-bottom: 5%;
+    margin: 0px;
+        img{
+            height: 50px;
+            width: auto;
+        }
     }
 }
 
@@ -82,19 +91,6 @@ div{
 }
 
 
-
-.details-button img{
-	height: 50px;
-	width: auto;
-}
-
-.details-button{
-	padding-top:  5%;
-	padding-bottom: 5%;
-	margin: 0px;
-    background-color: $primary-gray;
-
-}
 
 .project-details{
     visibility: hidden;
