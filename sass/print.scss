@@ -3,10 +3,7 @@
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 
  @import 'compass';
-
-$brand-red: #641E16;
-$primary-gray: #D7DBDD;
-$secondary-gray: #EFEFEF;
+ @import 'variables.scss';
 
 
 html {
@@ -25,29 +22,46 @@ body{
 // 	margin-left: 0px;
 // } 
 
-.three.columns {
-    width: 25%;
-}
-
-.four.columns {
-    width: 33.333333333%;
-}
-
 .container{
-	width: 100%;
-	max-width: none;
+        width: 100%;
+        max-width: none;
 }
 
-.page-head{
-	padding-top: 10px;
-	background-color: $brand-red  ;
-	color: $secondary-gray;
-	font-family: 'Rock Salt';
-}
-
-.headline{
-    padding-left: 6%;
-    padding-top: 3%;
+div{ 
+    .three.columns {
+        width: 25%;
+    }
+    .four.columns {
+        width: 33.333333333%;
+    }
+    .page-head{
+        padding-top: 10px;
+        background-color: $brand-red  ;
+        color: $secondary-gray;
+        font-family: 'Rock Salt';
+    }
+    .headline{
+        padding-left: 6%;
+        padding-top: 3%;
+    }
+    .language-slider{
+        width: 100%;
+        padding: 4% 0% 4% 0%;
+        margin: 0px;
+    }
+    .section{
+        background-color: $primary-gray;
+    }
+    .section-header{
+        text-align: center;
+        font-weight: 700;
+        margin: 6%;
+        font-family: "Rock Salt";
+    }
+    .projects{
+    padding:  5%;
+    background-color: $primary-gray;
+    }
 }
 
 .ellie{
@@ -59,23 +73,6 @@ body{
 	padding: 2px;
 }
 
-.language-slider{
-	width: 100%;
-	padding: 4% 0% 4% 0%;
-	margin: 0px;
-}
-
-.section{
-    background-color: $primary-gray;
-}
-
-.section-header{
-	text-align: center;
-	font-weight: 700;
-	margin: 6%;
-	font-family: "Rock Salt";
-}
-
 .logo{
 	width: auto;
 	height:  65px;
@@ -84,9 +81,7 @@ body{
 	margin-right: auto;
 }
 
-.projects{
-	padding:  5%;
-}
+
 
 .details-button img{
 	height: 50px;
@@ -97,6 +92,8 @@ body{
 	padding-top:  5%;
 	padding-bottom: 5%;
 	margin: 0px;
+    background-color: $primary-gray;
+
 }
 
 .project-details{
@@ -110,7 +107,7 @@ body{
 
 
 
-
+// -----------------------CALENDAR STYLES-----------------------//
 svg.js-calendar-graph-svg{
     height: 100%;
     width: auto;

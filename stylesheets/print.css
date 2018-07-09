@@ -1,7 +1,7 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 12, ../sass/print.scss */
+/* line 9, ../sass/print.scss */
 html {
   margin: 0px;
   padding: 0px;
@@ -9,43 +9,62 @@ html {
   height: auto;
 }
 
-/* line 19, ../sass/print.scss */
+/* line 16, ../sass/print.scss */
 body {
   background-color: #EFEFEF;
   font-family: 'Comfortaa';
 }
 
-/* line 28, ../sass/print.scss */
-.three.columns {
-  width: 25%;
-}
-
-/* line 32, ../sass/print.scss */
-.four.columns {
-  width: 33.333333333%;
-}
-
-/* line 36, ../sass/print.scss */
+/* line 25, ../sass/print.scss */
 .container {
   width: 100%;
   max-width: none;
 }
 
-/* line 41, ../sass/print.scss */
-.page-head {
+/* line 31, ../sass/print.scss */
+div .three.columns {
+  width: 25%;
+}
+/* line 34, ../sass/print.scss */
+div .four.columns {
+  width: 33.333333333%;
+}
+/* line 37, ../sass/print.scss */
+div .page-head {
   padding-top: 10px;
   background-color: #641E16;
   color: #EFEFEF;
   font-family: 'Rock Salt';
 }
-
-/* line 48, ../sass/print.scss */
-.headline {
+/* line 43, ../sass/print.scss */
+div .headline {
   padding-left: 6%;
   padding-top: 3%;
 }
+/* line 47, ../sass/print.scss */
+div .language-slider {
+  width: 100%;
+  padding: 4% 0% 4% 0%;
+  margin: 0px;
+}
+/* line 52, ../sass/print.scss */
+div .section {
+  background-color: #D7DBDD;
+}
+/* line 55, ../sass/print.scss */
+div .section-header {
+  text-align: center;
+  font-weight: 700;
+  margin: 6%;
+  font-family: "Rock Salt";
+}
+/* line 61, ../sass/print.scss */
+div .projects {
+  padding: 5%;
+  background-color: #D7DBDD;
+}
 
-/* line 53, ../sass/print.scss */
+/* line 67, ../sass/print.scss */
 .ellie {
   width: 200px;
   max-width: 100%;
@@ -55,27 +74,7 @@ body {
   padding: 2px;
 }
 
-/* line 62, ../sass/print.scss */
-.language-slider {
-  width: 100%;
-  padding: 4% 0% 4% 0%;
-  margin: 0px;
-}
-
-/* line 68, ../sass/print.scss */
-.section {
-  background-color: #D7DBDD;
-}
-
-/* line 72, ../sass/print.scss */
-.section-header {
-  text-align: center;
-  font-weight: 700;
-  margin: 6%;
-  font-family: "Rock Salt";
-}
-
-/* line 79, ../sass/print.scss */
+/* line 76, ../sass/print.scss */
 .logo {
   width: auto;
   height: 65px;
@@ -84,47 +83,43 @@ body {
   margin-right: auto;
 }
 
-/* line 87, ../sass/print.scss */
-.projects {
-  padding: 5%;
-}
-
-/* line 91, ../sass/print.scss */
+/* line 86, ../sass/print.scss */
 .details-button img {
   height: 50px;
   width: auto;
 }
 
-/* line 96, ../sass/print.scss */
+/* line 91, ../sass/print.scss */
 .details-button {
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 0px;
+  background-color: #D7DBDD;
 }
 
-/* line 102, ../sass/print.scss */
+/* line 99, ../sass/print.scss */
 .project-details {
   visibility: hidden;
   background-color: #CACFD2;
 }
 
-/* line 114, ../sass/print.scss */
+/* line 111, ../sass/print.scss */
 svg.js-calendar-graph-svg {
   height: 100%;
   width: auto;
 }
 
-/* line 119, ../sass/print.scss */
+/* line 116, ../sass/print.scss */
 .contrib-legend {
   margin: 5% 0% 2% 0%;
 }
 
-/* line 123, ../sass/print.scss */
+/* line 120, ../sass/print.scss */
 .legend li {
   margin: 0px;
 }
 
-/* line 126, ../sass/print.scss */
+/* line 123, ../sass/print.scss */
 .calendar {
   width: 100%;
   height: auto;
@@ -135,14 +130,14 @@ svg.js-calendar-graph-svg {
   margin: 0 auto;
 }
 
-/* line 136, ../sass/print.scss */
+/* line 133, ../sass/print.scss */
 .calendar-graph text.wday,
 .calendar-graph text.month {
   font-size: 10px;
   fill: #222;
 }
 
-/* line 142, ../sass/print.scss */
+/* line 139, ../sass/print.scss */
 .contrib-legend {
   text-align: right;
   padding: 0 14px 10px 0;
@@ -150,7 +145,7 @@ svg.js-calendar-graph-svg {
   float: right;
 }
 
-/* line 149, ../sass/print.scss */
+/* line 146, ../sass/print.scss */
 .contrib-legend .legend {
   display: inline-block;
   list-style: none;
@@ -160,26 +155,26 @@ svg.js-calendar-graph-svg {
   padding: 0;
 }
 
-/* line 158, ../sass/print.scss */
+/* line 155, ../sass/print.scss */
 .contrib-legend .legend li {
   display: inline-block;
   width: 10px;
   height: 10px;
 }
 
-/* line 164, ../sass/print.scss */
+/* line 161, ../sass/print.scss */
 .text-small {
   font-size: 12px;
   color: #767676;
 }
 
-/* line 169, ../sass/print.scss */
+/* line 166, ../sass/print.scss */
 .calendar-graph {
   padding: 5px 0 0;
   text-align: center;
 }
 
-/* line 174, ../sass/print.scss */
+/* line 171, ../sass/print.scss */
 .contrib-column {
   padding: 15px 0;
   text-align: center;
@@ -188,12 +183,12 @@ svg.js-calendar-graph-svg {
   font-size: 11px;
 }
 
-/* line 182, ../sass/print.scss */
+/* line 179, ../sass/print.scss */
 .contrib-column-first {
   border-left: 0;
 }
 
-/* line 186, ../sass/print.scss */
+/* line 183, ../sass/print.scss */
 .table-column {
   display: table-cell;
   width: 1%;
@@ -202,7 +197,7 @@ svg.js-calendar-graph-svg {
   vertical-align: top;
 }
 
-/* line 194, ../sass/print.scss */
+/* line 191, ../sass/print.scss */
 .contrib-number {
   font-weight: 300;
   line-height: 1.3em;
@@ -211,27 +206,27 @@ svg.js-calendar-graph-svg {
   color: #333;
 }
 
-/* line 202, ../sass/print.scss */
+/* line 199, ../sass/print.scss */
 .calendar img.spinner {
   width: 70px;
   margin-top: 50px;
   min-height: 70px;
 }
 
-/* line 208, ../sass/print.scss */
+/* line 205, ../sass/print.scss */
 .monospace {
   text-align: center;
   color: #000;
   font-family: monospace;
 }
 
-/* line 214, ../sass/print.scss */
+/* line 211, ../sass/print.scss */
 .monospace a {
   color: #1D75AB;
   text-decoration: none;
 }
 
-/* line 219, ../sass/print.scss */
+/* line 216, ../sass/print.scss */
 .contrib-footer {
   font-size: 11px;
   padding: 0 10px 12px;
@@ -241,31 +236,31 @@ svg.js-calendar-graph-svg {
   height: 26px;
 }
 
-/* line 228, ../sass/print.scss */
+/* line 225, ../sass/print.scss */
 .left.text-muted {
   float: left;
   margin-left: 9px;
   color: #767676;
 }
 
-/* line 233, ../sass/print.scss */
+/* line 230, ../sass/print.scss */
 .left.text-muted a {
   color: #4078c0;
   text-decoration: none;
 }
 
-/* line 237, ../sass/print.scss */
+/* line 234, ../sass/print.scss */
 .left.text-muted a:hover,
 .monospace a:hover {
   text-decoration: underline;
 }
 
-/* line 242, ../sass/print.scss */
+/* line 239, ../sass/print.scss */
 h2.f4.text-normal.mb-3 {
   display: none;
 }
 
-/* line 246, ../sass/print.scss */
+/* line 243, ../sass/print.scss */
 .float-left.text-gray {
   text-align: center;
 }
