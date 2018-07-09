@@ -1,0 +1,271 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 12, ../sass/print.scss */
+html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+
+/* line 19, ../sass/print.scss */
+body {
+  background-color: #EFEFEF;
+  font-family: 'Comfortaa';
+}
+
+/* line 28, ../sass/print.scss */
+.three.columns {
+  width: 25%;
+}
+
+/* line 32, ../sass/print.scss */
+.four.columns {
+  width: 33.333333333%;
+}
+
+/* line 36, ../sass/print.scss */
+.container {
+  width: 100%;
+  max-width: none;
+}
+
+/* line 41, ../sass/print.scss */
+.page-head {
+  padding-top: 10px;
+  background-color: #641E16;
+  color: #EFEFEF;
+  font-family: 'Rock Salt';
+}
+
+/* line 48, ../sass/print.scss */
+.headline {
+  padding-left: 6%;
+  padding-top: 3%;
+}
+
+/* line 53, ../sass/print.scss */
+.ellie {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 50px;
+  padding: 2px;
+}
+
+/* line 62, ../sass/print.scss */
+.language-slider {
+  width: 100%;
+  padding: 4% 0% 4% 0%;
+  margin: 0px;
+}
+
+/* line 68, ../sass/print.scss */
+.section {
+  background-color: blue;
+}
+
+/* line 72, ../sass/print.scss */
+.section-header {
+  text-align: center;
+  font-weight: 700;
+  margin: 6%;
+  font-family: "Rock Salt";
+}
+
+/* line 79, ../sass/print.scss */
+.logo {
+  width: auto;
+  height: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 87, ../sass/print.scss */
+.projects {
+  padding: 5%;
+}
+
+/* line 91, ../sass/print.scss */
+.details-button img {
+  height: 50px;
+  width: auto;
+}
+
+/* line 96, ../sass/print.scss */
+.details-button {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0px;
+}
+
+/* line 102, ../sass/print.scss */
+.project-details {
+  visibility: hidden;
+  background-color: #CACFD2;
+}
+
+/* line 114, ../sass/print.scss */
+svg.js-calendar-graph-svg {
+  height: 100%;
+  width: auto;
+}
+
+/* line 119, ../sass/print.scss */
+.contrib-legend {
+  margin: 5% 0% 2% 0%;
+}
+
+/* line 123, ../sass/print.scss */
+.legend li {
+  margin: 0px;
+}
+
+/* line 126, ../sass/print.scss */
+.calendar {
+  width: 100%;
+  height: auto;
+  font-family: "Comfortaa";
+  background-color: #D7DBDD;
+  min-height: 243px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 136, ../sass/print.scss */
+.calendar-graph text.wday,
+.calendar-graph text.month {
+  font-size: 10px;
+  fill: #222;
+}
+
+/* line 142, ../sass/print.scss */
+.contrib-legend {
+  text-align: right;
+  padding: 0 14px 10px 0;
+  display: inline-block;
+  float: right;
+}
+
+/* line 149, ../sass/print.scss */
+.contrib-legend .legend {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px;
+  position: relative;
+  bottom: -1px;
+  padding: 0;
+}
+
+/* line 158, ../sass/print.scss */
+.contrib-legend .legend li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 164, ../sass/print.scss */
+.text-small {
+  font-size: 12px;
+  color: #767676;
+}
+
+/* line 169, ../sass/print.scss */
+.calendar-graph {
+  padding: 5px 0 0;
+  text-align: center;
+}
+
+/* line 174, ../sass/print.scss */
+.contrib-column {
+  padding: 15px 0;
+  text-align: center;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  font-size: 11px;
+}
+
+/* line 182, ../sass/print.scss */
+.contrib-column-first {
+  border-left: 0;
+}
+
+/* line 186, ../sass/print.scss */
+.table-column {
+  display: table-cell;
+  width: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+/* line 194, ../sass/print.scss */
+.contrib-number {
+  font-weight: 300;
+  line-height: 1.3em;
+  font-size: 24px;
+  display: block;
+  color: #333;
+}
+
+/* line 202, ../sass/print.scss */
+.calendar img.spinner {
+  width: 70px;
+  margin-top: 50px;
+  min-height: 70px;
+}
+
+/* line 208, ../sass/print.scss */
+.monospace {
+  text-align: center;
+  color: #000;
+  font-family: monospace;
+}
+
+/* line 214, ../sass/print.scss */
+.monospace a {
+  color: #1D75AB;
+  text-decoration: none;
+}
+
+/* line 219, ../sass/print.scss */
+.contrib-footer {
+  font-size: 11px;
+  padding: 0 10px 12px;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  height: 26px;
+}
+
+/* line 228, ../sass/print.scss */
+.left.text-muted {
+  float: left;
+  margin-left: 9px;
+  color: #767676;
+}
+
+/* line 233, ../sass/print.scss */
+.left.text-muted a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+/* line 237, ../sass/print.scss */
+.left.text-muted a:hover,
+.monospace a:hover {
+  text-decoration: underline;
+}
+
+/* line 242, ../sass/print.scss */
+h2.f4.text-normal.mb-3 {
+  display: none;
+}
+
+/* line 246, ../sass/print.scss */
+.float-left.text-gray {
+  text-align: center;
+}
