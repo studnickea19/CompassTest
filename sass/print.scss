@@ -23,8 +23,9 @@ body{
 // } 
 
 .container{
-        width: 100%;
-        max-width: none;
+    padding: none;
+    width: 100%;
+    max-width: none;
 }
 
 div{ 
@@ -66,10 +67,18 @@ div{
     padding-top:  5%;
     padding-bottom: 5%;
     margin: 0px;
-        img{
+        input{
             height: 50px;
             width: auto;
         }
+        &:hover{
+            background-color: $hover-gray;
+        }
+    }
+    .project-details{
+        visibility: hidden;
+        background-color: #CACFD2;
+        margin: none;
     }
 }
 
@@ -90,15 +99,16 @@ div{
 	margin-right: auto;
 }
 
-
-
-.project-details{
-    visibility: hidden;
-    background-color: #CACFD2
-}
-
-
-
+// @media (min-width: $mobile){
+//     div{
+//         .details-button{
+//             img{
+//                 height: 25px;
+//                 width: auto;
+//             }
+//         }
+//     }
+// }
 
 
 

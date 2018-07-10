@@ -70,12 +70,22 @@ div .details-button {
   margin: 0px;
 }
 /* line 69, ../sass/print.scss */
-div .details-button img {
+div .details-button input {
   height: 50px;
   width: auto;
 }
+/* line 73, ../sass/print.scss */
+div .details-button:hover {
+  background-color: #CACFD2;
+}
+/* line 77, ../sass/print.scss */
+div .project-details {
+  visibility: hidden;
+  background-color: #CACFD2;
+  margin: none;
+}
 
-/* line 76, ../sass/print.scss */
+/* line 84, ../sass/print.scss */
 .ellie {
   width: 200px;
   max-width: 100%;
@@ -85,7 +95,7 @@ div .details-button img {
   padding: 2px;
 }
 
-/* line 85, ../sass/print.scss */
+/* line 93, ../sass/print.scss */
 .logo {
   width: auto;
   height: 65px;
@@ -94,29 +104,23 @@ div .details-button img {
   margin-right: auto;
 }
 
-/* line 95, ../sass/print.scss */
-.project-details {
-  visibility: hidden;
-  background-color: #CACFD2;
-}
-
-/* line 107, ../sass/print.scss */
+/* line 116, ../sass/print.scss */
 svg.js-calendar-graph-svg {
   height: 100%;
   width: auto;
 }
 
-/* line 112, ../sass/print.scss */
+/* line 121, ../sass/print.scss */
 .contrib-legend {
   margin: 5% 0% 2% 0%;
 }
 
-/* line 116, ../sass/print.scss */
+/* line 125, ../sass/print.scss */
 .legend li {
   margin: 0px;
 }
 
-/* line 119, ../sass/print.scss */
+/* line 128, ../sass/print.scss */
 .calendar {
   width: 100%;
   height: auto;
@@ -127,14 +131,14 @@ svg.js-calendar-graph-svg {
   margin: 0 auto;
 }
 
-/* line 129, ../sass/print.scss */
+/* line 138, ../sass/print.scss */
 .calendar-graph text.wday,
 .calendar-graph text.month {
   font-size: 10px;
   fill: #222;
 }
 
-/* line 135, ../sass/print.scss */
+/* line 144, ../sass/print.scss */
 .contrib-legend {
   text-align: right;
   padding: 0 14px 10px 0;
@@ -142,7 +146,7 @@ svg.js-calendar-graph-svg {
   float: right;
 }
 
-/* line 142, ../sass/print.scss */
+/* line 151, ../sass/print.scss */
 .contrib-legend .legend {
   display: inline-block;
   list-style: none;
@@ -152,26 +156,26 @@ svg.js-calendar-graph-svg {
   padding: 0;
 }
 
-/* line 151, ../sass/print.scss */
+/* line 160, ../sass/print.scss */
 .contrib-legend .legend li {
   display: inline-block;
   width: 10px;
   height: 10px;
 }
 
-/* line 157, ../sass/print.scss */
+/* line 166, ../sass/print.scss */
 .text-small {
   font-size: 12px;
   color: #767676;
 }
 
-/* line 162, ../sass/print.scss */
+/* line 171, ../sass/print.scss */
 .calendar-graph {
   padding: 5px 0 0;
   text-align: center;
 }
 
-/* line 167, ../sass/print.scss */
+/* line 176, ../sass/print.scss */
 .contrib-column {
   padding: 15px 0;
   text-align: center;
@@ -180,12 +184,12 @@ svg.js-calendar-graph-svg {
   font-size: 11px;
 }
 
-/* line 175, ../sass/print.scss */
+/* line 184, ../sass/print.scss */
 .contrib-column-first {
   border-left: 0;
 }
 
-/* line 179, ../sass/print.scss */
+/* line 188, ../sass/print.scss */
 .table-column {
   display: table-cell;
   width: 1%;
@@ -194,7 +198,7 @@ svg.js-calendar-graph-svg {
   vertical-align: top;
 }
 
-/* line 187, ../sass/print.scss */
+/* line 196, ../sass/print.scss */
 .contrib-number {
   font-weight: 300;
   line-height: 1.3em;
@@ -203,27 +207,27 @@ svg.js-calendar-graph-svg {
   color: #333;
 }
 
-/* line 195, ../sass/print.scss */
+/* line 204, ../sass/print.scss */
 .calendar img.spinner {
   width: 70px;
   margin-top: 50px;
   min-height: 70px;
 }
 
-/* line 201, ../sass/print.scss */
+/* line 210, ../sass/print.scss */
 .monospace {
   text-align: center;
   color: #000;
   font-family: monospace;
 }
 
-/* line 207, ../sass/print.scss */
+/* line 216, ../sass/print.scss */
 .monospace a {
   color: #1D75AB;
   text-decoration: none;
 }
 
-/* line 212, ../sass/print.scss */
+/* line 221, ../sass/print.scss */
 .contrib-footer {
   font-size: 11px;
   padding: 0 10px 12px;
@@ -233,31 +237,31 @@ svg.js-calendar-graph-svg {
   height: 26px;
 }
 
-/* line 221, ../sass/print.scss */
+/* line 230, ../sass/print.scss */
 .left.text-muted {
   float: left;
   margin-left: 9px;
   color: #767676;
 }
 
-/* line 226, ../sass/print.scss */
+/* line 235, ../sass/print.scss */
 .left.text-muted a {
   color: #4078c0;
   text-decoration: none;
 }
 
-/* line 230, ../sass/print.scss */
+/* line 239, ../sass/print.scss */
 .left.text-muted a:hover,
 .monospace a:hover {
   text-decoration: underline;
 }
 
-/* line 235, ../sass/print.scss */
+/* line 244, ../sass/print.scss */
 h2.f4.text-normal.mb-3 {
   display: none;
 }
 
-/* line 239, ../sass/print.scss */
+/* line 248, ../sass/print.scss */
 .float-left.text-gray {
   text-align: center;
 }
