@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('.project-details').hide();
+	// $('.project-details').hide();
 
 	//Technical Skills Hover Effect
 	$('div.language-slider, img.details-button').mouseenter(function(){
@@ -10,11 +10,10 @@ $(document).ready(function(){
 	});
 
 	//Project Details Button Animation
-	$('.details-button').click(function() {	
- 		$(this).closest('div.project-details').next().toggle();
- 		$(this).closest('div.project').next().hide();
+	$('.bff').click(function() {	
+ 		$(this).closest('.project-details').next().toggle();
+ 		$('.project-details').hide();
  	}, function() {
- 		$('.arrow')
  		$('.project-details').toggle();
   	});
 

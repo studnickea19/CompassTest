@@ -59,26 +59,20 @@ div{
         margin: 6%;
         font-family: "Rock Salt";
     }
-    .projects{
-        padding:  5%;
-        background-color: $primary-gray;
-    }
-    .details-button{
-    padding-top:  5%;
-    padding-bottom: 5%;
-    margin: 0px;
-        input{
-            height: 50px;
-            width: auto;
-        }
-        &:hover{
-            background-color: $hover-gray;
+    .project-label{
+        padding: 5% 0 3% 5%;
+        h4{
+            margin: 0px;
         }
     }
     .project-details{
-        visibility: hidden;
-        background-color: #CACFD2;
-        margin: none;
+        background-color: $secondary-gray;
+        font-size: 12px;
+        margin-left: 0px;
+        height: 100%;
+        display: block;
+        border-right: 20px solid $primary-gray;
+        padding: 2%;
     }
 }
 
@@ -97,6 +91,13 @@ div{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+i{
+    margin-left: 8%;
+    &:hover{
+        background-color: $hover-gray;
+    }
 }
 
 // @media (min-width: $mobile){
